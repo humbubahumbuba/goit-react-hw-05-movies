@@ -5,7 +5,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Home from 'pages/Home/Home';
 import { lazy} from 'react';
 
-// lazy
+
+
 const Movies = lazy(() => import('../../pages/Movies/Movies'));
 const MovieDetails = lazy(() =>
   import('../../pages/MovieDetails/MovieDetails')
